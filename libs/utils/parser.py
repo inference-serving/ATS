@@ -49,7 +49,7 @@ def parse_args():
         "--cfg",
         dest="cfg_file",
         help="Path to the config file",
-        default="/home/mohsen/farnoush/ATS-ViT/configs/ImageNet/DeiT_S.yaml",
+        default="/home/cc/ATS/configs/ImageNet/DeiT_S.yaml",
         type=str,
     )
     parser.add_argument(

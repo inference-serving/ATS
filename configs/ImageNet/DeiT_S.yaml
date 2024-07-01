@@ -6,12 +6,12 @@ TEST:
   ENABLE: True
   DATASET: ImageNet
   BATCH_SIZE: 1024
-  CHECKPOINT_FILE_PATH: "/home/mohsen/farnoush/VIT/deit_small_patch16_224-cd65a155.pth"
+  CHECKPOINT_FILE_PATH: "/home/cc/ATS/checkpoints/VIT/deit_small_patch16_224-cd65a155.pth"
   NUM_ENSEMBLE_VIEWS: 1
   NUM_SPATIAL_CROPS: 1
 
 DATA:
-  PATH_TO_DATA_DIR: "/media/datasets/ILSVRC/"
+  PATH_TO_DATA_DIR: "/home/cc/ATS/ImageNet/ILSVRC/"
   TEST_CROP_SIZE: 224
   TRAIN_CROP_SIZE: 224
   MEAN: [0.485, 0.456, 0.406]

@@ -1,0 +1,9 @@
+timm
+numpy
+torch
+git+https://github.com/facebookresearch/fvcore
+torchvision
+simplejson
+pyyaml
+tqdm
+tensorboard
